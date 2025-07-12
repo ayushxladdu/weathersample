@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.text-centre {
+  text-align: center;
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  height: 70vh;
+  width: 50vh;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.button {
+  padding: 20px;
+  margin: 2px 1px;
+  border-color: 2px solid black;
+  
+  border-radius: 77vh;
+  cursor: pointer;
+  box-shadow: white;
+  color: white;
+  font-size: 17px;
+  background-color: darkgray;
+  font-family: "Montserrat", serif;
+}
+
+.row input {
+  padding: 10px 2px;
+  margin: 9px;
+  border-radius: 5px;
+  border: 2px solid gray;
+  font-size: 18px;
+  text-align: center;
+}
+
+.odd {
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 77vh;
+}
+
+.clear {
+  background-color: orange;
+  font-size: 20px;
+  border-radius: 77vh;
+  padding: 8px 15vh;
+  margin: auto;
+
+}
+
+.love {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin: auto;
+  font-size: 15px;
+  font-family: "Ubuntu", serif;
+  font-weight: 300;
+  font-style: normal;
+}
